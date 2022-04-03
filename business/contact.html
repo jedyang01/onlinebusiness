@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gamer's Republic | Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="icon" type="images/png" href="images/favicon.ico"/>
+</head>
+
+
+<body onscroll="parallax();">
+    <a name="top"></a>
+    <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:lavender"; >      
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item ">
+        <a class="nav-link" href="index.html" target="_self">Home</a>
+        </li>
+        <li class="nav-item ">
+        <a class="nav-link" href="products.html" target="_self">Products</a>
+        </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="contact.html" target="_self">Contact Us</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="references.html" target="_self">References</a>
+        </li>
+        <li class="nav-item dropdown">
+
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        More Info
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="https://www.logitechg.com/en-ca" target="_blank">Logitech Gaming Store</a>
+        <a class="dropdown-item" href="https://www.bestbuy.ca/en-ca" target="_blank">Best Buy</a>
+        <a class="dropdown-item" href="https://www.canadacomputers.com/" target="_blank">Canada Computers</a>
+        </div>
+        </li>
+    </ul> 
+    </div>
+    </nav>
+        
+        
+    <div class="unav"></div>
+    <img class="full-width-banner" img src="images/banner.jpg">
+    
+<div class= "centerbox">
+    <form class="centerbox">
+   
+    <h2>Contact Us!</h2>
+        
+    <div class = "container">
+        <div class="para" id="background" style="background-position-y: 0px;"></div>
+        
+    </div>
+    <h5>Name</h5>
+        <input type="text" name="name" class="boxsize" id="name" onblur="checkName()"/>
+      
+   
+        
+      
+    <h5 class="textspace">Email Address</h5>
+        <input type="text" class="boxsize" name="email" id="email" onblur="checkEmail()"/>
+    
+        
+    
+    <h5 class="textspace">Reason for Message</h5>
+    
+        <select class="textspace-bottom boxsize" id="reasonBox" name="productID"  onchange="updateReason();">
+            <option></option>
+            <option>General Inquiry</option>
+            <option>Pricing and Bulk Rates </option>
+            <option>Product Info</option>
+            <option>Shipping</option>
+            <option>Other</option>
+        </select>
+    
+        
+      
+    <h5 class="hidden" id="productLabel" >Product ID</h5>
+    <input type="text" name="product" id="product" class="hidden" onblur="checkProductID()" />
+   
+        
+      
+    <h5 class="textspace">Message</h5>
+        <textarea name="msg" id="msg" onblur="checkMsg()" class="tboxsize textspace-bottom"></textarea>
+
+ 
+         <button class="btn btn-primary col align-self-center" type="button">Submit</button>
+        
+        
+  
+
+    </form>
+   
+              
+</div>
+  <div class= "marginpage"></div>      
+</div> 
+
+   
+
+
+<script type="text/javascript" src="js/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+</body>
+
+
+</html>

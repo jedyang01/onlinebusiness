@@ -1,0 +1,30 @@
+body {
+    background-color:lavender!important;
+}
+
+h4 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px
+}
+
+.under {
+    margin-bottom:40px;
+}
+.full-width-banner {
+    width: 100%;
+    margin-bottom: 5%;
+}
+.fitimage {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
